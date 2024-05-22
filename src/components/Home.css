@@ -14,7 +14,7 @@
 .image img{
     height: 362px;
     width: 335px;
-    margin: 0 0 -137% 93%; 
+    margin: 0 0 -115% 93%; 
    
 }
 
@@ -49,8 +49,8 @@
     margin:10px 0 -10px 0;
 }
 
-.email-box, .btn-sub{
-    padding:10px 10px 10px 10px ;
+.email-box, .btn-sub, .btn-dismiss{
+    padding:15px 10px 15px 10px ;
     margin-right: 12px;
     border-radius: 5px;
 }
@@ -60,12 +60,29 @@
     font-size: 12px;
 }
 
-.btn-sub{
+.btn-sub, .btn-dismiss{
     border: none;
     background-color: hsl(234, 29%, 20%);
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 12px;
     cursor: pointer;
+    text-decoration-line: none;
+    text-align: center;
 }
+
+/* SEGUNDA TELA */
+
+.caixa{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5%;
+    padding: 15px 15px 15px 45px;
+    width:30%;
+    margin-left: 40%;
+    gap: 15px;
+}
+
 

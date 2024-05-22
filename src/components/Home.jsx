@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.css';
 
+import { Link } from 'react-router-dom';
+
 const Home = () => {
   return (
     <>
@@ -20,9 +22,9 @@ const Home = () => {
         </ul>
         <p className="email-label">Email address</p>
         <input type="text" className="email-box" placeholder='email@company.com' />
-        <button className='btn-sub'>Subscribe to monthly newsletter</button>
-
+        <Link to="/submitte" className='btn-sub'>Subscribe to monthly newsletter</Link>
     </div>
+   
     </>
     
   )
