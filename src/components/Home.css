@@ -5,22 +5,21 @@
     background-color: #fff;
     border-radius: 5%;
     padding: 15px 290px 35px 45px;
-    width:41%;
-    margin-left: 30%;
+    width:55%;
     gap: 15px;
 
 }
 
 .image img{
-    height: 362px;
-    width: 335px;
-    margin: 0 0 -115% 93%; 
+    height: 364px;
+    width: 339px;
+    margin: 0 0 -127% 93%; 
    
 }
 
-.titulo{
+.titulo, .txt{
     color: hsl(234, 29%, 20%);
-    font-size: 40px;
+    font-size: 38px;
 }
 
 .subtitulo{
@@ -71,6 +70,10 @@
     text-align: center;
 }
 
+.btn-sub:hover{
+    background-color: hsl(4, 100%, 67%);
+}
+
 /* SEGUNDA TELA */
 
 .caixa{
@@ -79,10 +82,28 @@
     flex-direction: column;
     background-color: #fff;
     border-radius: 5%;
-    padding: 15px 15px 15px 45px;
+    padding: 35px 45px 35px 45px;
     width:30%;
-    margin-left: 40%;
+    margin-left: 13%;
     gap: 15px;
 }
 
+.check-image{
+    height: 40px;
+    width: 40px;
+    margin: 0 0 15px 0;
+}
 
+.txt{
+    line-height: 37px;
+}
+
+.txt-menor{
+    color: hsl(234, 29%, 20%);
+    font-size: 11px;
+    margin: 5px 20px 10px 0;
+}
+
+.btn-dismiss:hover{
+    background-color: hsl(4, 100%, 67%);
+}
